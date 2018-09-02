@@ -1,0 +1,182 @@
+{
+   "bannedStatus": {
+      "description": "Status message when user/streamer is banned",
+      "message": "To video nie może być nagrywane, ponieważ jego autor jest zbanowany."
+   },
+   "bannedStatusTitle": {
+      "description": "Status title when user/streamer is banned",
+      "message": "Autor został zbanowany"
+   },
+   "blockedStatus": {
+      "description": "Status gdy stream jest zablokowany",
+      "message": "Ten stream nie może być nagrywany, ponieważ poprosił o to jego właściciel."
+   },
+   "blockedStatusTitle": {
+      "description": "Tytuł statusu gdy stream jest zablokowany",
+      "message": "Stream jest zablokowany"
+   },
+   "confirmBetaProgram": {
+      "description": "Confirmation alert message that will be shown when a user select to join Beta Program",
+      "message": "Czy jesteś pewien, że chcesz używać Oddshot Beta?"
+   },
+   "cooldownStatus": {
+      "description": "Status gdy stream jest chwilowo zablokowany",
+      "message": "Odczekaj chwilę zanim zrobisz ponownie shot."
+   },
+   "cooldownStatusTitle": {
+      "description": "Tytuł statusu gdy stream jest chwilowo zablokowany",
+      "message": "Stream nie jest gotowy"
+   },
+   "downloadDesktopApp": {
+      "description": "This message appears in the popup if the current site is not supported by the plugin",
+      "message": "Uchwycisz wszystko z nową aplikacją desktopową."
+   },
+   "error": {
+      "description": "Tytuł notyfikacji z błędem",
+      "message": "Błąd"
+   },
+   "errorTakingShot": {
+      "description": "Notyfikacja o błędzie podczas robienia shot'a",
+      "message": "Wystąpił błąd podczas robienia shot'a."
+   },
+   "failedRetrievingShotData": {
+      "description": "Błąd gdy serwer odrzuci zapytanie",
+      "message": "Nie udało się zrobić shot'a."
+   },
+   "invalidMetaData": {
+      "description": "Notyfikacja gdy stream ma nieprawidłowe meta dane",
+      "message": "Nie udało się zebrać wystarczająco danych o streamie."
+   },
+   "invalidMetaDataTitle": {
+      "description": "Tytuł notyfikacji o nieprawidłowych danych.",
+      "message": "Nieprawidłowe dane o streamie"
+   },
+   "loadingStatus": {
+      "description": "Status message when stream is loading or initializing",
+      "message": "Trwa ładowanie streamu, poczekaj aż się załaduje."
+   },
+   "loadingStatusTitle": {
+      "description": "Status title when stream is loading or initializing",
+      "message": "Ładowanie"
+   },
+   "manyStreamsStatus": {
+      "description": "Status message when there are multiple sources on the page.",
+      "message": "Na stronie jest kilka źródeł wideo, użyj przycisku wewnątrz odtwarzacza."
+   },
+   "notLiveStatus": {
+      "description": "Status message when stream is not live",
+      "message": "Stream musi być na żywo, jeśli chcesz go nagrać."
+   },
+   "notLiveStatusTitle": {
+      "description": "Status title when stream is not live",
+      "message": "Stream nie jest na żywo"
+   },
+   "notReadyStatus": {
+      "description": "Status gdy stream nie jest gotowy",
+      "message": "Shot nie jest jeszcze gotowy, odczekaj kilka sekund."
+   },
+   "notReadyStatusTitle": {
+      "description": "Tytuł statusu gdy stream nie jest gotowy",
+      "message": "Shot nie jest gotowy"
+   },
+   "oddshotSupports": {
+      "description": "Label shown in the popup, next to the supported sites icons",
+      "message": "Oddshot wspiera"
+   },
+   "offlineStatus": {
+      "description": "Status gdy stream jest offline",
+      "message": "Stream jest aktualnie offline, spróbuj później."
+   },
+   "offlineStatusTitle": {
+      "description": "Tytuł statusu gdy stream jest offline",
+      "message": "Stream jest offline"
+   },
+   "pageIsLoadingStatus": {
+      "description": "Status message when page is not fully loaded",
+      "message": "Strona nie jest w pełni załadowana, poczekaj aż się załaduje."
+   },
+   "pageIsLoadingStatusTitle": {
+      "description": "Status title when page is not fully loaded",
+      "message": "Ładowanie"
+   },
+   "pageNotSupportedStatus": {
+      "description": "Status gdy strona nie jest wspierana",
+      "message": "Ta strona nie wspiera robienia shotów."
+   },
+   "pageNotSupportedStatusTitle": {
+      "description": "Tytuł statusu gdy strona nie jest wspierana",
+      "message": "Strona nie jest wspierana"
+   },
+   "pausedStatus": {
+      "description": "Status message when stream is paused",
+      "message": "Stream został przerwany, włącz go aby uchwycić najlepsze chwile."
+   },
+   "pausedStatusTitle": {
+      "description": "Status title when stream is paused",
+      "message": "Stream jest zastopowany"
+   },
+   "popupGoBack": {
+      "description": "Link to go back in popup navigation (displayed in the report problem form)",
+      "message": "Powrót"
+   },
+   "popupReportFormDescriptionPlaceholder": {
+      "description": "Description input placeholder",
+      "message": "Opisz problem"
+   },
+   "popupReportFormEmailPlaceholder": {
+      "description": "Email input placeholder",
+      "message": "Twój email (opcjonalnie)"
+   },
+   "popupReportFormSubmitButton": {
+      "description": "Value of the submit button that will send a report",
+      "message": "Wyślij raport"
+   },
+   "popupReportFormSuccess": {
+      "description": "Message will be shown when report has been submitted",
+      "message": "Dziękujemy za zgłoszenie, przejrzymy Twój raport i spróbujemy go naprawić najszybciej jak to możliwe."
+   },
+   "popupReportProblemLink": {
+      "description": "Link to the report problem form",
+      "message": "Zgłoś problem"
+   },
+   "protectedStatus": {
+      "description": "Status message when video is protected",
+      "message": "Wtyczka nie obsługuje zabezpieczonych materiałów."
+   },
+   "protectedStatusTitle": {
+      "description": "Status title when video is protected",
+      "message": "Wideo jest chronione"
+   },
+   "providerNotResponds": {
+      "description": "Tytuł notyfikacji gdy dostawca nie odpowiada na nasze zapytanie.",
+      "message": "API $1'a nie odpowiada"
+   },
+   "readyExtendedStatus": {
+      "description": "Rozszerzony status gdy stream jest gotowy",
+      "message": "\"$1\" jest gotowy, kliknij w 'Zrób shot' by go nagrać."
+   },
+   "readyStatus": {
+      "description": "Status gdy stream jest gotowy",
+      "message": "Shot jest gotowy, kliknij w 'Zrób shot' by go nagrać."
+   },
+   "readyStatusTitle": {
+      "description": "Tytuł statusu gdy stream jest gotowy",
+      "message": "Shot gotowy"
+   },
+   "takeShot": {
+      "description": "Etykieta przycisku 'Take shot'",
+      "message": "Zrób shot"
+   },
+   "unsupportedStatus": {
+      "description": "Status gdy format streamu nie jest wspierany",
+      "message": "Format tego streamu nie jest jeszcze wspierany."
+   },
+   "unsupportedStatusTitle": {
+      "description": "Tytuł statusu gdy format streamu nie jest wspierany",
+      "message": "Niewspierany format streamu"
+   },
+   "useOddshotBeta": {
+      "description": "Oddshot Beta checkbox label",
+      "message": "Użyj Oddshot Beta"
+   }
+}

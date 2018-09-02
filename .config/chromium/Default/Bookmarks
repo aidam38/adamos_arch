@@ -1,0 +1,493 @@
+{
+   "checksum": "58897f1018af8459ff36b918d0fec6ac",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13176844231494443",
+            "id": "48",
+            "meta_info": {
+               "last_visited_desktop": "13179911480611324"
+            },
+            "name": "YouTube",
+            "sync_transaction_version": "600",
+            "type": "url",
+            "url": "https://www.youtube.com/feed/subscriptions"
+         }, {
+            "date_added": "13090499361191558",
+            "id": "13",
+            "meta_info": {
+               "last_visited": "13153065902520293",
+               "last_visited_desktop": "13180016531039346"
+            },
+            "name": "Gmail",
+            "sync_transaction_version": "609",
+            "type": "url",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+         }, {
+            "date_added": "13146854411221010",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13179828051206977"
+            },
+            "name": "Kalendář",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://calendar.google.com/calendar/render#main_7"
+         }, {
+            "date_added": "13109862338870068",
+            "id": "15",
+            "meta_info": {
+               "last_visited": "13146248870458162",
+               "last_visited_desktop": "13179790857192914"
+            },
+            "name": "Mapy",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://www.google.cz/maps"
+         }, {
+            "date_added": "13136827998685419",
+            "id": "16",
+            "meta_info": {
+               "last_visited_desktop": "13179789884383453"
+            },
+            "name": "Keep",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://keep.google.com/u/0/"
+         }, {
+            "date_added": "13086638391481537",
+            "id": "17",
+            "meta_info": {
+               "last_visited": "13180019432766276",
+               "last_visited_desktop": "13179827978690434"
+            },
+            "name": "Facebook",
+            "sync_transaction_version": "609",
+            "type": "url",
+            "url": "http://facebook.com/"
+         }, {
+            "date_added": "13119110240011505",
+            "id": "18",
+            "meta_info": {
+               "last_visited": "13171926104232512",
+               "last_visited_desktop": "13179842307747844"
+            },
+            "name": "Twitter",
+            "sync_transaction_version": "599",
+            "type": "url",
+            "url": "https://twitter.com/"
+         }, {
+            "date_added": "13132520435220790",
+            "id": "19",
+            "meta_info": {
+               "last_visited": "13159057260001056",
+               "last_visited_desktop": "13179841143962610"
+            },
+            "name": "Reddit",
+            "sync_transaction_version": "596",
+            "type": "url",
+            "url": "https://www.reddit.com/"
+         }, {
+            "date_added": "13107455225228304",
+            "id": "20",
+            "meta_info": {
+               "last_visited": "13160928272969107",
+               "last_visited_desktop": "13179825548901921"
+            },
+            "name": "hltv.org",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "http://www.hltv.org/"
+         }, {
+            "date_added": "13137196321165244",
+            "id": "21",
+            "meta_info": {
+               "last_visited": "13151760355101440",
+               "last_visited_desktop": "13179785076840886"
+            },
+            "name": "Student",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://cmgp.edookit.net/timetable/?do=familyTimetable-resetFilter"
+         }, {
+            "date_added": "13159906379636970",
+            "id": "22",
+            "meta_info": {
+               "last_visited_desktop": "13176762817130879"
+            },
+            "name": "Učitel",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://cmgp-login.edookit.net/#handler/page/dashboard?__oid=2&__tid=65&_mid=10882"
+         }, {
+            "date_added": "13087925164666903",
+            "id": "23",
+            "meta_info": {
+               "last_visited": "13171377106625051",
+               "last_visited_desktop": "13178704749703148"
+            },
+            "name": "CMSPS",
+            "sync_transaction_version": "546",
+            "type": "url",
+            "url": "http://cmgp.cz/"
+         }, {
+            "date_added": "13117443215561348",
+            "id": "24",
+            "meta_info": {
+               "last_visited": "13146249432944595",
+               "last_visited_desktop": "13179841028930956"
+            },
+            "name": "IDOS",
+            "sync_transaction_version": "595",
+            "type": "url",
+            "url": "http://jizdnirady.idnes.cz/brno/spojeni/"
+         }, {
+            "date_added": "13174657343265467",
+            "id": "25",
+            "meta_info": {
+               "last_visited_desktop": "13179841319455209"
+            },
+            "name": "Drive",
+            "sync_transaction_version": "598",
+            "type": "url",
+            "url": "https://drive.google.com/drive/my-drive"
+         }, {
+            "date_added": "13086638480630999",
+            "id": "26",
+            "meta_info": {
+               "last_visited": "13171976485255020",
+               "last_visited_desktop": "13179795962716287"
+            },
+            "name": "iDNES.cz",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "http://www.idnes.cz/"
+         }, {
+            "date_added": "13090523005823282",
+            "id": "27",
+            "meta_info": {
+               "last_visited": "13178705452363159",
+               "last_visited_desktop": "13179785567593341"
+            },
+            "name": "PirateBay",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://thepiratebay.org/"
+         }, {
+            "date_added": "13095946902935044",
+            "id": "28",
+            "meta_info": {
+               "last_visited_desktop": "13179914450881672"
+            },
+            "name": "SERVIS24",
+            "sync_transaction_version": "605",
+            "type": "url",
+            "url": "https://www.servis24.cz/ebanking-s24/ib/base/inf/productlist/accounts?execution=e6s1"
+         }, {
+            "date_added": "13146917345720227",
+            "id": "29",
+            "meta_info": {
+               "last_visited": "13148848688073392",
+               "last_visited_desktop": "13178705192674894"
+            },
+            "name": "KA",
+            "sync_transaction_version": "549",
+            "type": "url",
+            "url": "https://www.khanacademy.org/"
+         }, {
+            "date_added": "13120404223072193",
+            "id": "30",
+            "meta_info": {
+               "last_visited": "13170970832698470",
+               "last_visited_desktop": "13171127313029398"
+            },
+            "name": "Desmos",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.desmos.com/calculator"
+         }, {
+            "date_added": "13156895748408110",
+            "id": "31",
+            "meta_info": {
+               "last_visited_desktop": "13179944931629271"
+            },
+            "name": "GeoGeb",
+            "sync_transaction_version": "608",
+            "type": "url",
+            "url": "https://www.geogebra.org/?lang=cs"
+         }, {
+            "date_added": "13150795504769869",
+            "id": "32",
+            "meta_info": {
+               "last_visited_desktop": "13179826250462258"
+            },
+            "name": "Reuters",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://www.reuters.com/"
+         }, {
+            "date_added": "13163184657523839",
+            "id": "33",
+            "meta_info": {
+               "last_visited_desktop": "13174657683764020"
+            },
+            "name": "Evernote",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.evernote.com/Home.action?login=true"
+         }, {
+            "date_added": "13178568072631260",
+            "id": "50",
+            "meta_info": {
+               "last_visited_desktop": "13179914827542138"
+            },
+            "name": "TraderGO",
+            "sync_transaction_version": "606",
+            "type": "url",
+            "url": "https://login.tradergo.cz/sim/Login/?returnurl=%2f"
+         }, {
+            "date_added": "13146937069774613",
+            "id": "35",
+            "meta_info": {
+               "last_visited": "13170845935421574",
+               "last_visited_desktop": "13179828105180268"
+            },
+            "name": "PraSe",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://mks.mff.cuni.cz/commentary/aktualni.php"
+         }, {
+            "date_added": "13165603595621965",
+            "id": "34",
+            "meta_info": {
+               "last_visited": "13168884982261070",
+               "last_visited_desktop": "13176076742187244"
+            },
+            "name": "MO",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "http://www.matematickaolympiada.cz/cs/olympiada-pro-stredni-skoly/67-rocnik-17-18"
+         }, {
+            "date_added": "13106688684029715",
+            "id": "36",
+            "meta_info": {
+               "last_visited_desktop": "13177175927444856"
+            },
+            "name": "CS:GO",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.twitch.tv/directory/game/Counter-Strike:%20Global%20Offensive"
+         }, {
+            "date_added": "13119914276028702",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13161910819994081"
+            },
+            "name": "KRec",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "http://www.karaterec.com/en/"
+         }, {
+            "date_added": "13122977442678590",
+            "id": "38",
+            "meta_info": {
+               "last_visited": "13167402862447595",
+               "last_visited_desktop": "13171284927498970"
+            },
+            "name": "Carmen",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "http://katalog.kjm.cz:8080/Carmen/"
+         }, {
+            "date_added": "13117372133270383",
+            "id": "39",
+            "meta_info": {
+               "last_visited_desktop": "13170975549989678"
+            },
+            "name": "9GAG",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "http://9gag.com/"
+         }, {
+            "date_added": "13077027238572254",
+            "id": "40",
+            "name": "Bookmarks",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "date_added": "13153966790729345",
+            "id": "41",
+            "meta_info": {
+               "last_visited_desktop": "13153966790729787"
+            },
+            "name": "",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.instagram.com/adam.krivka/following/"
+         }, {
+            "date_added": "13167917566862449",
+            "id": "42",
+            "meta_info": {
+               "last_visited_desktop": "13177340811804865"
+            },
+            "name": "Překladač",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://translate.google.cz/?hl=cs"
+         }, {
+            "date_added": "13170260012144214",
+            "id": "43",
+            "meta_info": {
+               "last_visited": "13180106933441364",
+               "last_visited_desktop": "13179779341892226"
+            },
+            "name": "iKS",
+            "sync_transaction_version": "609",
+            "type": "url",
+            "url": "http://iksko.org/ranklist.php"
+         }, {
+            "date_added": "13173396534948549",
+            "id": "44",
+            "meta_info": {
+               "last_visited_desktop": "13173452754826384"
+            },
+            "name": "The Economist",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.economist.com/"
+         }, {
+            "date_added": "13173730254850508",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13179911590612933"
+            },
+            "name": "Messenger",
+            "sync_transaction_version": "604",
+            "type": "url",
+            "url": "https://www.messenger.com/"
+         }, {
+            "date_added": "13173828414362993",
+            "id": "46",
+            "meta_info": {
+               "last_visited_desktop": "13173828414363281"
+            },
+            "name": "What is free software? - GNU Project - Free Software Foundation",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.gnu.org/philosophy/free-sw.html"
+         } ],
+         "date_added": "13176328710383399",
+         "date_modified": "13180109315823856",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13176328710383413",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "609",
+      "synced": {
+         "children": [ {
+            "date_added": "13130505276338872",
+            "id": "5",
+            "meta_info": {
+               "last_visited": "13173956228168464",
+               "last_visited_desktop": "13170324471754206"
+            },
+            "name": "Jídelna",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://stravovani.bigy.cz/webkredit/"
+         }, {
+            "date_added": "13130505335504657",
+            "id": "6",
+            "meta_info": {
+               "last_visited": "13176283463612373",
+               "last_visited_desktop": "13179777284175021"
+            },
+            "name": "KarateRec",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://www.karaterec.com/cz/calendar.php"
+         }, {
+            "date_added": "13130505395075785",
+            "id": "7",
+            "meta_info": {
+               "last_visited": "13171711064475097",
+               "last_visited_desktop": "13171216894250887"
+            },
+            "name": "Facebook",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://m.facebook.com/?_rdr"
+         }, {
+            "date_added": "13135780581137588",
+            "id": "8",
+            "meta_info": {
+               "last_visited": "13151946404271396",
+               "last_visited_desktop": "13167763007619364"
+            },
+            "name": "Hlavní panel – Školní portál | edookit.com",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://cmgp.edookit.net/?_fid=h478"
+         }, {
+            "date_added": "13156636510598459",
+            "id": "9",
+            "meta_info": {
+               "last_visited": "13171912323849182",
+               "last_visited_desktop": "13164230148641904"
+            },
+            "name": "O2 Family",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://moje.o2family.cz/nastaveni-tarifu-a-sluzeb/"
+         }, {
+            "date_added": "13161115387750932",
+            "id": "10",
+            "meta_info": {
+               "last_visited": "13166295589067354",
+               "last_visited_desktop": "13179944858985449"
+            },
+            "name": "CS:GO News & Coverage | HLTV.org",
+            "sync_transaction_version": "594",
+            "type": "url",
+            "url": "https://www.hltv.org/"
+         }, {
+            "date_added": "13172590033239284",
+            "id": "11",
+            "meta_info": {
+               "last_visited": "13172590034078213",
+               "last_visited_desktop": "13173293897399931"
+            },
+            "name": "no input neural networks - Hledat Googlem",
+            "sync_transaction_version": "503",
+            "type": "url",
+            "url": "https://www.google.cz/search?q=no+input+neural+networks&oq=no+input+neural+networks&aqs=chrome..69i57j33.14050j0j9&sourceid=chrome-mobile&ie=UTF-8"
+         }, {
+            "date_added": "13086638459735084",
+            "id": "12",
+            "meta_info": {
+               "last_visited": "13161976321286692",
+               "last_visited_desktop": "13179740057847032"
+            },
+            "name": "YouTube",
+            "sync_transaction_version": "575",
+            "type": "url",
+            "url": "http://youtube.com/feed/subscriptions"
+         } ],
+         "date_added": "13176328710383414",
+         "date_modified": "13179840882604788",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

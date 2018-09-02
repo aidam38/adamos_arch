@@ -1,0 +1,50 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icon-128.png",
+         "162": "icon.png",
+         "48": "icon-48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "commands": {
+      "take-shot": {
+         "description": "Take a !shot"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "clients/embeds.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*.player.twitch.tv/*", "*://*.youtube.com/embed*", "*://*.player.vimeo.com/video/*", "*://*.periscope.tv/w/*", "*://*.pscp.tv/*" ]
+   }, {
+      "all_frames": true,
+      "css": [ "clients/videoCapture.css" ],
+      "js": [ "clients/videoCapture.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*/*" ]
+   }, {
+      "js": [ "clients/oddshot.js" ],
+      "matches": [ "*://*.oddshot.com/*", "*://*.oddshot.tv/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Chrome extension for Oddshot",
+   "icons": {
+      "128": "icon-128.png",
+      "162": "icon.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwzLFoxpxs7Ap4nwKY8jObsKw9fzTZ7E/Hz2a0t/hLsJnW3Jh+z9g0WiFtUY2Mt2GOJYQjTvXe09uCE5lH9NxFxVszCuKn1Bi8aJWCF84pRfGxTA42Dfm5tfTkACOyDd+VSL0s2ODIFoeFnF53+fQymnINQ5XYg3VMCoMn/VapmwvLTLJgr0OK6LJQ2+vT7JecOh0PNHCwwpLPydoUFEVOIIbvOZ6fEGTB6yH2r2FI7JVnrYnLoNTUntbv6Kujjt0g3oxASYlfABQTaXGyd+/P/HXeXm906eLmdHkWAIOapI0AE/e/4uIFWhrKoFvuhLjr/iQOrH3Dbatogc1WTlpsQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "42",
+   "minimum_opera_version": "29",
+   "name": "Oddshot",
+   "permissions": [ "activeTab", "notifications", "storage", "tabs", "webNavigation", "webRequest", "\u003Call_urls>", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8.10",
+   "version_name": "2.8.10 (bcd8b90)"
+}

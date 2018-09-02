@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "var_defaultHotkeys.js", "shortcut.js", "control.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Customisable hotkeys for basic browser actions.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+RaR31q4f935cQmcPx4UKx8vDr0gL2gsA1aLBv03hA0Q4fk1TBg5ooE/qR9Pi+XoitrA9GXZqBpXsGcth/LWISP+tfAzYZ1odpcAeUpJ9JrcM8+r+rYHDgBqyGw3vuP4vj+CLe/YPas2uJ1OQ4CacF1lCo4PxBdCDEw4/CwD7RwIDAQAB",
+   "manifest_version": 2,
+   "name": "Hotkeys",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "icon-19.png",
+      "default_title": "Hotkeys"
+   },
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.20"
+}

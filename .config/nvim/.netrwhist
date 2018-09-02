@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/adam/Downloads/btpd-master/doc'
+let g:netrw_dirhist_2='/etc/sudoers.d'
+let g:netrw_dirhist_3='/home/adam/builds/dmenu'
+let g:netrw_dirhist_4='/home/adam/builds'
+let g:netrw_dirhist_5='/home/adam'

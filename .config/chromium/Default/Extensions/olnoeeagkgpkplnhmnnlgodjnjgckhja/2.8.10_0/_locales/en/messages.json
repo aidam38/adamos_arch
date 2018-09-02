@@ -1,0 +1,182 @@
+{
+   "bannedStatus": {
+      "description": "Status message when user/streamer is banned",
+      "message": "This video cannot be captured, because its author is banned."
+   },
+   "bannedStatusTitle": {
+      "description": "Status title when user/streamer is banned",
+      "message": "Video author is banned"
+   },
+   "blockedStatus": {
+      "description": "Status message when stream is blocked by host",
+      "message": "This stream cannot be captured, because its streamer requested to opt-out of taking shots."
+   },
+   "blockedStatusTitle": {
+      "description": "Status title when stream is blocked by host",
+      "message": "Stream is blocked"
+   },
+   "confirmBetaProgram": {
+      "description": "Confirmation alert message that will be shown when a user select to join Beta Program",
+      "message": "Are you sure you want to use Oddshot Beta?"
+   },
+   "cooldownStatus": {
+      "description": "Status message when stream is cooldown",
+      "message": "Please wait before you take shot again."
+   },
+   "cooldownStatusTitle": {
+      "description": "Status title when stream is cooldown",
+      "message": "Not ready"
+   },
+   "downloadDesktopApp": {
+      "description": "This message appears in the popup if the current site is not supported by the plugin",
+      "message": "You can capture anything with the Oddshot Desktop app."
+   },
+   "error": {
+      "description": "The title of notification about error",
+      "message": "Error"
+   },
+   "errorTakingShot": {
+      "description": "The content of notification shows when shot can't be taken",
+      "message": "There has been an error taking the shot."
+   },
+   "failedRetrievingShotData": {
+      "description": "Error message shows if the capture server reject our request",
+      "message": "Failed retrieving shot data."
+   },
+   "invalidMetaData": {
+      "description": "The content of notification about invalid meta data",
+      "message": "We couldn't get enough information about this stream."
+   },
+   "invalidMetaDataTitle": {
+      "description": "The title of notification when we couldn't get enough data",
+      "message": "Invalid stream data"
+   },
+   "loadingStatus": {
+      "description": "Status message when stream is loading or initializing",
+      "message": "Stream is loading, please wait until it loads."
+   },
+   "loadingStatusTitle": {
+      "description": "Status title when stream is loading or initializing",
+      "message": "Loading"
+   },
+   "manyStreamsStatus": {
+      "description": "Status message when there are multiple sources on the same page.",
+      "message": "Please use the video player capture button if there are multiple sources on the same page."
+   },
+   "notLiveStatus": {
+      "description": "Status message when stream is not live",
+      "message": "Stream must be live if you want to capture it."
+   },
+   "notLiveStatusTitle": {
+      "description": "Status title when stream is not live",
+      "message": "Stream is not live"
+   },
+   "notReadyStatus": {
+      "description": "Status message when stream is not ready",
+      "message": "Oddshot is not ready just yet, please wait a few more seconds."
+   },
+   "notReadyStatusTitle": {
+      "description": "Status title when stream is not ready",
+      "message": "Not ready"
+   },
+   "oddshotSupports": {
+      "description": "Label shown in the popup, next to the supported sites icons",
+      "message": "Oddshot supports"
+   },
+   "offlineStatus": {
+      "description": "Status message when stream is offline",
+      "message": "Stream is currently offline, try again later."
+   },
+   "offlineStatusTitle": {
+      "description": "Status title when stream is offline",
+      "message": "Stream is offline"
+   },
+   "pageIsLoadingStatus": {
+      "description": "Status message when page is not fully loaded",
+      "message": "The page is not fully loaded, please wait until it loads."
+   },
+   "pageIsLoadingStatusTitle": {
+      "description": "Status title when page is not fully loaded",
+      "message": "Loading"
+   },
+   "pageNotSupportedStatus": {
+      "description": "Status message when page is not supported",
+      "message": "This page does not support taking shots."
+   },
+   "pageNotSupportedStatusTitle": {
+      "description": "Status title when page is not supported",
+      "message": "Not supported"
+   },
+   "pausedStatus": {
+      "description": "Status message when stream is paused",
+      "message": "Stream is paused, resume it to capture the best moments."
+   },
+   "pausedStatusTitle": {
+      "description": "Status title when stream is paused",
+      "message": "Stream is paused"
+   },
+   "popupGoBack": {
+      "description": "Link to go back in popup navigation (displayed in the report problem form)",
+      "message": "Go back"
+   },
+   "popupReportFormDescriptionPlaceholder": {
+      "description": "Description input placeholder",
+      "message": "Describe your problem here"
+   },
+   "popupReportFormEmailPlaceholder": {
+      "description": "Email input placeholder",
+      "message": "Your email (optional)"
+   },
+   "popupReportFormSubmitButton": {
+      "description": "Value of the submit button that will send a report",
+      "message": "Send a report"
+   },
+   "popupReportFormSuccess": {
+      "description": "Message will be shown when report has been submitted",
+      "message": "Thanks for your report, we will look at it and try to fix it as soon as possible."
+   },
+   "popupReportProblemLink": {
+      "description": "Link to the report problem form",
+      "message": "Report a problem"
+   },
+   "protectedStatus": {
+      "description": "Status message when video is protected",
+      "message": "Protected videos are not supported"
+   },
+   "protectedStatusTitle": {
+      "description": "Status title when video is protected",
+      "message": "Video is protected"
+   },
+   "providerNotResponds": {
+      "description": "Notification title when provider API doesn't respond to our request.",
+      "message": "$1 API doesn't respond"
+   },
+   "readyExtendedStatus": {
+      "description": "Extended status message when stream is ready",
+      "message": "\"$1\" is ready, click the 'Take shot' button to capture."
+   },
+   "readyStatus": {
+      "description": "Status message when stream is ready",
+      "message": "Oddshot is ready, click the 'Take shot' button to capture."
+   },
+   "readyStatusTitle": {
+      "description": "Status title when stream is ready",
+      "message": "Oddshot is ready"
+   },
+   "takeShot": {
+      "description": "Label of 'Take shot' button",
+      "message": "Take shot"
+   },
+   "unsupportedStatus": {
+      "description": "Status message when stream format is unsupported",
+      "message": "The format of this stream is not supported yet."
+   },
+   "unsupportedStatusTitle": {
+      "description": "Status title when stream format is unsupported",
+      "message": "Unsupported stream format"
+   },
+   "useOddshotBeta": {
+      "description": "Oddshot Beta checkbox label",
+      "message": "Use Oddshot Beta"
+   }
+}

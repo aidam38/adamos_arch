@@ -1,0 +1,6 @@
+[submodule ".config/nvim/bundle/vim-live-latex-preview"]
+	path = .config/nvim/bundle/vim-live-latex-preview
+	url = https://github.com/xuhdev/vim-live-latex-preview.git
+[submodule "builds/spotymenu"]
+	path = builds/spotymenu
+	url = https://github.com/spcmd/spotymenu.git

@@ -1,0 +1,158 @@
+{
+   "blockedStatus": {
+      "description": "Mensagem do status quando a transmissão está bloqueada pelo host",
+      "message": "Essa transmissão não pode ser gravada porque o streamer optou por não permitir gravações."
+   },
+   "blockedStatusTitle": {
+      "description": "Título do status quando a transmissão está bloqueada pelo host",
+      "message": "Transmissão bloqueada"
+   },
+   "confirmBetaProgram": {
+      "description": "Confirmation alert message that will be shown when a user select to join Beta Program",
+      "message": "Você tem certeza que deseja usar a versão beta do Oddshot?"
+   },
+   "cooldownStatus": {
+      "description": "Mensagem do status quando transmissão está fria",
+      "message": "Por favor espere antes de gravar um shot de novo."
+   },
+   "cooldownStatusTitle": {
+      "description": "Mensagem do status quando transmissão está fria",
+      "message": "Não disponível"
+   },
+   "error": {
+      "description": "O título da notificação do erro",
+      "message": "Erro"
+   },
+   "errorTakingShot": {
+      "description": "O conteúdo da notificação que mostra quando o shot não pode ser obtido",
+      "message": "Houve um erro ao gravar o shot."
+   },
+   "failedRetrievingShotData": {
+      "description": "Mensagem de erro mostrada se o servidor recusar nossa requisição",
+      "message": "Falha ao recuperar os dados do shot"
+   },
+   "invalidMetaData": {
+      "description": "The content of notification about invalid meta data",
+      "message": "Não foi possível obter informação suficiente sobre essa transmissão."
+   },
+   "invalidMetaDataTitle": {
+      "description": "Título da notificação quando não foi possível obter dados suficientes",
+      "message": "Transmissão inválida"
+   },
+   "loadingStatus": {
+      "description": "Mensagem do status quando a transmissão esta carregando ou inicializando",
+      "message": "A transmissão está carregando. Por favor aguarde"
+   },
+   "loadingStatusTitle": {
+      "description": "Título do status quando a transmissão está carregando ou inicializando",
+      "message": "Carregando"
+   },
+   "notLiveStatus": {
+      "description": "Título indicativo de que a transmissão não está no ar",
+      "message": "O stream precisa estar no ar para você conseguir gravar-lo"
+   },
+   "notLiveStatusTitle": {
+      "description": "Título indicativo de que a transmissão não está no ar",
+      "message": "Esse stream não está no ar"
+   },
+   "notReadyStatus": {
+      "description": "Mensagem do status quando transmissão não está disponível",
+      "message": "A transmissão ainda não está disponível. Aguarde alguns instantes."
+   },
+   "notReadyStatusTitle": {
+      "description": "Título do status quando a transmissão não está disponível",
+      "message": "Não disponível"
+   },
+   "oddshotSupports": {
+      "description": "Label shown in the popup, next to the supported sites icons",
+      "message": "Oddshot suporta"
+   },
+   "offlineStatus": {
+      "description": "Título do status quando a transmissão está fora do ar",
+      "message": "Essa transmissáo está fora do ar no momento. Por favor tente novamente mais tarde."
+   },
+   "offlineStatusTitle": {
+      "description": "Título do status quando a transmissão está fora do ar",
+      "message": "Transmissão fora do ar"
+   },
+   "pageIsLoadingStatus": {
+      "description": "Mensagem do status quando a página não carregou completamente",
+      "message": "A página ainda não carregou completamente. Por favor aguarde."
+   },
+   "pageIsLoadingStatusTitle": {
+      "description": "Título do status quando a página não carregou completamente",
+      "message": "Carregando"
+   },
+   "pageNotSupportedStatus": {
+      "description": "Mensagem do status quando a ainda página não é suportada",
+      "message": "Essa página não suporta a gravação de shots."
+   },
+   "pageNotSupportedStatusTitle": {
+      "description": "Título do status quando a página não é suportada",
+      "message": "Não suportado"
+   },
+   "pausedStatus": {
+      "description": "Mensagem do status quando a transmissão está em pausa",
+      "message": "A transmissão está em pausa. Aperte play para gravar os melhores momentos"
+   },
+   "pausedStatusTitle": {
+      "description": "Título do status quando a transmissão está em pausa",
+      "message": "Transmissão em pausa"
+   },
+   "popupGoBack": {
+      "description": "Link para voltar da navegação modo pop-up (exibido no formulário de reportar problemas)",
+      "message": "Voltar"
+   },
+   "popupReportFormDescriptionPlaceholder": {
+      "description": "Máscara de entrada para a descrição",
+      "message": "Explique o problema aqui"
+   },
+   "popupReportFormEmailPlaceholder": {
+      "description": "Máscara de entrada para o email",
+      "message": "Seu email (opcional)"
+   },
+   "popupReportFormSubmitButton": {
+      "description": "Texto do butão de envio para mandar o reporte",
+      "message": "Enviar reporte"
+   },
+   "popupReportFormSuccess": {
+      "description": "Mensagem a ser exibida quando o reporte de erro é enviado",
+      "message": "Obrigado pelo seu comentário. Vamos consertar o erro o mais rápido possível."
+   },
+   "popupReportProblemLink": {
+      "description": "Link para o formulário de reportar problemas",
+      "message": "Reportar um erro"
+   },
+   "providerNotResponds": {
+      "description": "Título da notificação quando o prevedor do API não responde as nossas requisições.",
+      "message": "O API $1 não está respondendo"
+   },
+   "readyExtendedStatus": {
+      "description": "Mensagem extendida do status quando a transmissão está disponível",
+      "message": "\"$1\" disponível, insira o comando '!shot' no chat ou aperte o botão 'Gravar shot!' para gravar"
+   },
+   "readyStatus": {
+      "description": "Mensagem do status quando transmissão está disponível",
+      "message": "Shot disponível, insira o comando '!shot' no chat ou aperte o botão 'Gravar shot!' para gravar"
+   },
+   "readyStatusTitle": {
+      "description": "Mensagem do status quando transmissão está disponível",
+      "message": "Transmissão disponível"
+   },
+   "takeShot": {
+      "description": "Rótulo do botão 'Gravar shot'",
+      "message": "Gravar shot"
+   },
+   "unsupportedStatus": {
+      "description": "Mensagem do status quando o formato da transmissão não é suportado",
+      "message": "O formato dessa transmissão ainda não é suportado."
+   },
+   "unsupportedStatusTitle": {
+      "description": "Título do status quando o formato da transmissão não é suportado",
+      "message": "Formato não suportado"
+   },
+   "useOddshotBeta": {
+      "description": "Oddshot Beta checkbox label",
+      "message": "Usar Oddshot versão beta"
+   }
+}

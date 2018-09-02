@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <title>Customize Hotkeys</title>
+    <link type="text/css" href="css/flick/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="var_defaultHotkeys.js"></script>
+    <script type="text/javascript" src="keycode.js"></script>
+    <script type="text/javascript" src="options_uihelper.js"></script>
+    <style type="text/css">
+	#tabs {
+		max-width:500px;
+    }
+    body{ font: 75% sans-serif; margin: 30px;}
+    .rows{ padding:2px; }
+    .rows input{ height:28px;}
+    #status{height:20px;}
+    .actions2{margin-top:15px;}
+    .warning{color:red; font-weight: bold}
+	.status { display:none;}
+	.defaultsButton { margin-left: 20px; }
+	</style>
+  </head>
+  <body>
+    <div id="tabs">
+      <ul>
+        <li>
+          <a href="#tabs-1">Hotkeys</a>
+        </li>
+        <li>
+          <a href="#tabs-2">Blocklist</a>
+        </li>
+      </ul>
+      <div id="tabs-1">
+        <div id="help">
+          <p>To change the hotkeys, click on the textbox and press your desired hotkey combination. To enable/disable a hotkey,
+          click on any button on the right.</p>
+          <p>
+          <span class="warning">Warning: Some shortcut combinations may not work properly.</span> The defaults are recommended.
+          <span class="warning">Also, it is best to restart the browser after changing the options</span>, since the extension will not take effect until the page is reloaded.</p>
+		  <p> Note: hotkeys are disabled while on input fields.</p>
+        </div>
+        <div class="rows">
+        <input type="text" class="scrollUp" /> 
+        <input type="checkbox" class="scrollUp" id="scrollUpEnabled" />
+        <label for="scrollUpEnabled">Scroll Up</label></div>
+        <div class="rows">
+        <input type="text" class="scrollDown" /> 
+        <input type="checkbox" class="scrollDown" id="scrollDownEnabled" />
+        <label for="scrollDownEnabled">Scroll Down</label></div>
+        <div class="rows">
+        <input type="text" class="previousTab" /> 
+        <input type="checkbox" class="previousTab" id="previousTabEnabled" />
+        <label for="previousTabEnabled">Previous Tab</label></div>
+        <div class="rows">
+        <input type="text" class="nextTab" /> 
+        <input type="checkbox" class="nextTab" id="nextTabEnabled" />
+        <label for="nextTabEnabled">Next Tab</label></div>
+        <div class="rows">
+        <input type="text" class="scrollToTop" /> 
+        <input type="checkbox" class="scrollToTop" id="scrollToTopEnabled" />
+        <label for="scrollToTopEnabled">Scroll to Top</label></div>
+        <div class="rows">
+        <input type="text" class="scrollToBottom" /> 
+        <input type="checkbox" class="scrollToBottom" id="scrollToBottomEnabled" />
+        <label for="scrollToBottomEnabled">Scroll to Bottom</label></div>
+        <div class="rows">
+        <input type="text" class="historyBack" /> 
+        <input type="checkbox" class="historyBack" id="historyBackEnabled" />
+        <label for="historyBackEnabled">History Back</label></div>
+        <div class="rows">
+        <input type="text" class="historyForward" /> 
+        <input type="checkbox" class="historyForward" id="historyForwardEnabled" />
+        <label for="historyForwardEnabled">History Forward</label></div>
+        <div class="rows">
+        <input type="text" class="reload" /> 
+        <input type="checkbox" class="reload" id="reloadEnabled" />
+        <label for="reloadEnabled">Reload Page</label></div>
+        <div class="rows">
+        <input type="text" class="stopLoading" /> 
+        <input type="checkbox" class="stopLoading" id="stopLoadingEnabled" />
+        <label for="stopLoadingEnabled">Stop Loading</label></div>
+        <div class="rows">
+        <input type="text" class="newTab" /> 
+        <input type="checkbox" class="newTab" id="newTabEnabled" />
+        <label for="newTabEnabled">New Tab</label></div>
+        <div class="rows">
+        <input type="text" class="closeTab" /> 
+        <input type="checkbox" class="closeTab" id="closeTabEnabled" />
+        <label for="closeTabEnabled">Close Tab</label></div>
+        <div class="rows">
+        <input type="text" class="undoCloseTab" /> 
+        <input type="checkbox" class="undoCloseTab" id="undoCloseTabEnabled" />
+        <label for="undoCloseTabEnabled">Undo Close Tab</label></div>
+        <br />
+        <div class="actions">
+        <button class="saveButton ui-corner-all">Save</button>
+        <button class="defaultsButton ui-corner-all" style="margin-left:20px;">Defaults</button></div>
+		<div class="status"></div>
+      </div>
+      <div id="tabs-2">
+        <div>
+          <p>For advanced users only. This might be made more user friendly in the future. To use, separate expressions
+          with <b>commas</b>. For example, "twitter,google" (without quotes) matches any URL that <b>contains</b> twitter <b>or</b> google in it.</p>
+        </div>
+        <textarea id="blocklist" style="width: 100%; height: 300px"></textarea>
+        <div class="actions2">
+        <button class="ui-corner-all saveButton">Save</button>
+        <button class="ui-corner-all defaultsButton" style="margin-left:20px;">Defaults</button>
+		<div class="status"></div>
+		</div>
+      </div>
+    </div>
+    <script type="text/javascript" src="options_uihelper_end.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,82 @@
+[MainWindow]
+Height 768=742
+State=AAAA/wAAAAD9AAAAAQAAAAIAAAVSAAABK/wBAAAADPsAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AAAAAAD/////AAAARwD////7AAAADgBsAGkAYgByAGEAcgB5AAAAAAD/////AAAAWQD////7AAAAGgBhAHUAZABpAG8AcwBwAGUAYwB0AHIAdQBtAAAAAAD/////AAAAawD////7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAAAAAKYAAABZAP////wAAACsAAAAqQAAAFcA////+gAAAAABAAAAAvsAAAAYAGUAZgBmAGUAYwB0AF8AcwB0AGEAYwBrAQAAAAD/////AAAAVwD////7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwAAAAAA/////wAAAEUA/////AAAAVsAAAF7AAAAwAD////6AAAAAQEAAAAC+wAAAB4AdAByAGEAbgBzAGkAdABpAG8AbgBfAGwAaQBzAHQBAAAAAP////8AAABXAP////sAAAAWAGUAZgBmAGUAYwB0AF8AbABpAHMAdAEAAAAA/////wAAAMAA/////AAAAtwAAAJ2AAABQAD////6AAAAAAEAAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAAFAAP////sAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAAD/////AAABQAD////7AAAAGAB1AG4AZABvAF8AaABpAHMAdABvAHIAeQAAAAAA/////wAAAEcA////+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABPQD////7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACrAP////sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAAClAP////sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABRAD///8AAAVSAAABYgAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZQB4AHQAcgBhAFQAbwBvAGwAQgBhAHIBAAABbv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1366=1362
+
+[Scope_Histogram]
+autoRefresh=true
+bEnabled=true
+gEnabled=true
+rEnabled=true
+realtime=false
+rec601=false
+sEnabled=false
+yEnabled=true
+
+[Scope_RGB Parade]
+autoRefresh=true
+axis=false
+gradref=false
+paintmode=0
+realtime=false
+
+[Scope_Vectorscope]
+75PBox=false
+autoRefresh=true
+axis=false
+backgroundmode=0
+colorspace_ypbpr=false
+gain=1
+iqlines=false
+paintmode=0
+realtime=false
+
+[Scope_Waveform]
+autoRefresh=true
+paintmode=0
+realtime=false
+rec601=false
+
+[bin]
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAADBgAAAAIAAAACAAAAagAAAAEAAAA+AAAA+wAAAAMBAQABAAAAAAAAAAAAAAAAav////8AAACBAAAAAAAAAAMAAACRAAAAAQAAAAAAAAAAAAAAAQAAAAAAAABqAAAAAQAAAAAAAAPoAAAAAEU=
+
+[capture]
+decklink_extension=mov
+decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
+grab_extension=mov
+grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
+v4l_extension=mpg
+v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
+
+[env]
+defaultimageapp=/usr/bin/gimp
+defaultprojectfolder[$e]=$HOME/Documents
+ffmpegpath[$e]=/usr/bin/ffmpeg
+ffplaypath[$e]=/usr/bin/ffplay
+ffprobepath[$e]=/usr/bin/ffprobe
+mltpath[$e]=/usr/share/mlt/profiles/
+rendererpath[$e]=/usr/bin/melt
+
+[project]
+proxyextension=mkv
+proxyparams=-vf yadif,scale=960:-2 -qscale 3 -vcodec mjpeg -acodec pcm_s16le
+
+[sdl]
+audiobackend=sdl2_audio
+sdlAudioBackend=sdl2_audio
+
+[timeline]
+trackheight=66
+
+[unmanaged]
+current_profile=atsc_1080p_25
+default_profile=atsc_1080p_25
+force_breeze=true
+monitor_audio=false
+producerslist=avformat,avformat-novalidate,blipflash,count,pango,pixbuf,qimage,qtext,kdenlivetitle,xml,xml-string,xml-nogl,slowmotion,decklink,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,pgm,framebuffer
+project_display_ratio=1.7777777777777777
+widgetstyle=Default
+
+[version]
+version=18.04.3

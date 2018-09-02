@@ -1,0 +1,44 @@
+{
+   "author": "Carlos Jeurissen",
+   "background": {
+      "page": "background.html?extch=sfg",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/extension/default/icon-128.png",
+         "16": "images/extension/default/icon-16.png",
+         "19": "images/extension/default/icon-19.png",
+         "32": "images/extension/default/icon-32.png",
+         "38": "images/extension/default/icon-38.png",
+         "48": "images/extension/default/icon-48.png"
+      },
+      "default_popup": "app.html?extch=sfg",
+      "default_title": "Open app launcher"
+   },
+   "content_scripts": [  ],
+   "default_locale": "en",
+   "description": "Choose from 500+ Google™ shortcuts to show up as buttons in a space-saving popup.",
+   "homepage_url": "https://apps.jeurissen.co/shortcuts-for-google",
+   "icons": {
+      "128": "images/extension/default/icon-128.png",
+      "16": "images/extension/default/icon-16.png",
+      "19": "images/extension/default/icon-19.png",
+      "32": "images/extension/default/icon-32.png",
+      "38": "images/extension/default/icon-38.png",
+      "48": "images/extension/default/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCirIGGJhMj+r8G1hrgpzzKeyUHm4HIvcmyIhFi+JQXKb4b6NsG6T/fyj5upW2WpSA5LrVFM2Gv1c8MthH9bXtPezCAM87FVQx+r567ah8zq/V+qu0JDnHBDGjCX0o2bjl+CFwpXMCaVP1Q1+4aeiLID4IDKmRq/68tJichiS/ZgQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "21",
+   "name": "Shortcuts for Google™",
+   "options_page": "options.html?extch=sfg",
+   "options_ui": {
+      "chrome_style": false,
+      "open_in_tab": false,
+      "page": "options.html?extch=sfg"
+   },
+   "permissions": [ "storage", "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "18.3.0"
+}

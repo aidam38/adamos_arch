@@ -1,0 +1,53 @@
+.OddshotIcon-videoCapture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 28px;
+  background-size: 62px 21px;
+  background-color: #292F46;
+  border: none;
+  border-radius: 48px;
+  z-index: 16777271;
+  color: #F8FDFF;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.2s ease;
+}
+
+.OddshotIcon-videoCapture svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 22px;
+  margin: 0;
+  padding: 3px 3px 3px 7px;
+  pointer-events: none;
+  box-sizing: content-box;
+}
+
+.OddshotIcon-videoCapture svg path:first-child {
+  fill: #F8FDFF;
+}
+
+.OddshotIcon-videoCapture svg path:not(:first-child) {
+  fill: #00BAFE;
+}
+
+.OddshotIcon-videoCapture label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 9px 0 0;
+  padding: 0;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  color: inherit;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.OddshotIcon-videoCapture:hover {
+  background-color: #1D2131;
+}

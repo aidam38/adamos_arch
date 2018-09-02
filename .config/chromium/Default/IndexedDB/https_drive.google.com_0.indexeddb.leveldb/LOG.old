@@ -1,0 +1,4 @@
+2018/07/29-12:59:08.355 5091 Reusing MANIFEST /home/adam/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/07/29-13:00:07.417 5502 Level-0 table #5: started
+2018/07/29-13:00:07.611 5502 Level-0 table #5: 7260678 bytes OK
+2018/07/29-13:00:07.724 5502 Delete type=0 #3
