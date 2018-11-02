@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "storage.js", "background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "gcalize.js" ],
+      "matches": [ "http://*.google.com/calendar/*", "https://*.google.com/calendar/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "default_locale": "ja",
+   "description": "__MSG_extDes__",
+   "icons": {
+      "128": "img_icons/icon_128.png",
+      "16": "img_icons/icon_016.png",
+      "19": "img_icons/icon_019.png",
+      "48": "img_icons/icon_048.png",
+      "96": "img_icons/icon_096.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi1RfE0zOCsTp079b3I/8pSO1iGmFiKEvGGiMo0onTuEWgaOQDfrWnqxPhultGpVhEe74yu4+iH2ejlmye5pUYWctlcVxk/kT8ymG6aNV+9ap+TIdtvMZBxZCkzHTPhqLqessPkvyN5ue8j8TuxkwkWTRAG7KORG0MnKOl5mNC9RgklxIkWPF1nq2KuTfwhWEMYDtSES0keDkuxyj8pujBg7rfmwrLRyS1TApXksjlnNnfUEKcDr20lSWDJXw9wnRoRUAajyEntt1FNxDsQzgfqLY6bYmMtyyfTaU5OT9KKJHdM+iMgtRkdKSYIFwUpBkQIGmRHtdpasWaFZBXlH5cQIDAQAB",
+   "manifest_version": 2,
+   "name": "G-calize",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "img_icons/icon_016.png",
+      "default_title": "G-calize"
+   },
+   "permissions": [ "tabs", "https://www.google.com/calendar/*", "http://www.google.com/calendar/*", "http://*.googleusercontent.com/gadgets/*", "https://*.googleusercontent.com/gadgets/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.4"
+}

@@ -70,14 +70,27 @@ settings:
         <Escape>: leave-mode
         <Return>: follow-hint
       insert:
-        <Ctrl+e>: open-editor
+        <Ctrl+e>: open-editor nvim
         <Escape>: leave-mode
         <Shift+Ins>: insert-text {primary}
       normal:
+        '"I': hint images tab
+        '"O': hint links fill :open -t -r {hint-url}
+        '"R': hint --rapid links window
+        '"Y': hint links yank-primary
+        '"b': hint all tab-bg
+        '"d': hint links download
+        '"f': hint all tab-fg
+        '"h': hint all hover
+        '"i': hint images
+        '"o': hint links fill :open {hint-url}
+        '"r': hint --rapid links tab-bg
+        '"y': hint links yank
         '''': enter-mode jump_mark
         +: zoom-in
+        ',': tab-move -
         '-': zoom-out
-        .: repeat-command
+        .: tab-move +
         /: set-cmd-text /
         '1': tab-focus 1
         ':': 'set-cmd-text :'
@@ -101,6 +114,7 @@ settings:
         <Alt+8>: tab-focus 8
         <Alt+9>: tab-focus -1
         <Alt+m>: tab-mute
+        <Alt+w>: quit --save
         <Back>: back
         <Ctrl++>: tab-focus 1
         <Ctrl+1>: tab-focus 1
@@ -120,6 +134,7 @@ settings:
         <Ctrl+a>: navigate increment
         <Ctrl+b>: scroll-page 0 -1
         <Ctrl+d>: scroll-page 0 0.5
+        <Ctrl+e>: enter-mode passthrough
         <Ctrl+f>: scroll-page 0 1
         <Ctrl+h>: home
         <Ctrl+n>: open -w
@@ -128,20 +143,37 @@ settings:
         <Ctrl+s>: stop
         <Ctrl+t>: open -t
         <Ctrl+u>: scroll-page 0 -0.5
-        <Ctrl+v>: enter-mode passthrough
+        <Ctrl+v>: null
         <Ctrl+w>: tab-close
         <Ctrl+x>: navigate decrement
-        <Escape>: clear-keychain ;; search ;; fullscreen --leave
+        <Escape>: download-clear ;; clear-keychain ;; search ;; fullscreen --leave
         <F11>: fullscreen
+        <F1>: enter-mode passthrough
         <F5>: reload
         <Forward>: forward
         <Meta++>: tab-focus 1
         <Meta+1>: tab-focus 1
+        <Meta+Tab>: tab-focus last
+        <Meta+m>: tab-mute
+        <Meta+á>: tab-focus 7
+        <Meta+é>: tab-focus -1
+        <Meta+í>: tab-focus 8
+        <Meta+Č>: tab-focus 4
+        <Meta+Ě>: tab-focus 2
+        <Meta+Ř>: tab-focus 5
+        <Meta+Š>: tab-focus 3
+        <Meta+Ž>: tab-focus 6
         <Return>: follow-selected
+        <Ů>: 'set-cmd-text :'
         '=': zoom
         '?': set-cmd-text ?
         '@': run-macro
         B: set-cmd-text -s :quickmark-load -t
+        D: null
+        Dc: download-clear
+        Dd: set-cmd-text -s :download
+        Do: download-open rifle
+        Ds: download-cancel
         F: hint all tab
         G: scroll-to-perc
         H: tab-prev
@@ -165,15 +197,16 @@ settings:
         '[[': navigate prev
         ']]': navigate next
         '`': enter-mode set_mark
-        ad: download-cancel
         b: set-cmd-text -s :quickmark-load
         cd: download-clear
         co: tab-only
+        d: scroll-page 0 0.5
         f: hint
         g$: tab-focus -1
         g0: tab-focus 1
         gB: set-cmd-text -s :bookmark-load -t
         gC: tab-clone
+        gI: hint inputs
         gO: set-cmd-text :open -t -r {url:pretty}
         gU: navigate up -t
         g^: tab-focus 1
@@ -201,10 +234,12 @@ settings:
         pp: open -- {clipboard}
         q: record-macro
         r: reload
+        s: scroll-page 0 -0.5
         sf: save
         sk: set-cmd-text -s :bind
         sl: set-cmd-text -s :set -t
         ss: set-cmd-text -s :set
+        t: open -t
         tPH: config-cycle -p -u *://*.{url:host}/* content.plugins ;; reload
         tPh: config-cycle -p -u *://{url:host}/* content.plugins ;; reload
         tPu: config-cycle -p -u {url} content.plugins ;; reload
@@ -247,7 +282,8 @@ settings:
         '{{': navigate prev -t
         '}}': navigate next -t
       passthrough:
-        <Ctrl+v>: leave-mode
+        <Ctrl+e>: leave-mode
+        <Shift+Escape>: null
       prompt:
         <Alt+Backspace>: rl-backward-kill-word
         <Alt+Shift+y>: prompt-yank --sel

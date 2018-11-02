@@ -1,0 +1,40 @@
+{
+   "author": "ALiangLiang",
+   "background": {
+      "page": "pages/background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "icons/16.png"
+      },
+      "default_title": "__MSG_extName__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/vendor.js", "js/element.js", "js/chartjs.js", "js/content.js" ],
+      "matches": [ "*://*.facebook.com/" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self'  https://connect.facebook.net https://www.google-analytics.com https://www.google.com https://checkout.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "19": "icons/19.png",
+      "38": "icons/38.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApgt7WcuhA9s1XINhU8hU5b3ZCL7u6KAZSGJLXHjczbxI4RD8bMFUKeGuRoogHjdb1hcMWXqYdYcdgfoecFdUX3mbdgueybBXSdVnU/b2/6qu6iMK3VplMf/6gYmtEudJtq2QnqRivmS2NWH6RdvpwR8mKSPlgLZmV80t+dnR91Bozih55f0J/3PhbWk8OFpYXWFrUbTJmfiy9LpQARiILJ88GXjCBa53aokWvd14+YBWHNx8HyzQDamJBEM3XaY7vY5xa1OJGg1DxKYAupRHXyn9qnjPMv94a934JGc0witZ3aVRJFiS8l7MAJwCIjCCtxhezT4CHKDmOslaJi2hVQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "459831431153-hmbpr1usuj4ii550q2mrr9s274fs3dsj.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/plus.login", "https://www.googleapis.com/auth/chromewebstore", "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+   },
+   "options_page": "pages/options.html",
+   "permissions": [ "tabs", "identity", "downloads", "webRequest", "webRequestBlocking", "*://*.facebook.com/*", "https://www.googleapis.com/", "https://www-googleapis-staging.sandbox.google.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.5",
+   "version_name": "0.2.5"
+}

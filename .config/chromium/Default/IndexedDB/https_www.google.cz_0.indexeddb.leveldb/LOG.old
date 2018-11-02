@@ -1,3 +1,3 @@
-2018/08/26-00:01:55.498 8053 Reusing MANIFEST /home/adam/.config/chromium/Default/IndexedDB/https_www.google.cz_0.indexeddb.leveldb/MANIFEST-000001
-2018/08/26-00:01:55.499 8053 Recovering log #3
-2018/08/26-00:01:55.574 8053 Reusing old log /home/adam/.config/chromium/Default/IndexedDB/https_www.google.cz_0.indexeddb.leveldb/000003.log 
+2018/10/30-19:24:14.948 20278 Reusing MANIFEST /home/adam/.config/chromium/Default/IndexedDB/https_www.google.cz_0.indexeddb.leveldb/MANIFEST-000001
+2018/10/30-19:24:14.948 20278 Recovering log #3
+2018/10/30-19:24:14.949 20278 Reusing old log /home/adam/.config/chromium/Default/IndexedDB/https_www.google.cz_0.indexeddb.leveldb/000003.log 

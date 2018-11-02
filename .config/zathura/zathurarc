@@ -1,0 +1,9 @@
+unmap d
+unmap s
+map d navigate next 
+map s navigate previous 
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out

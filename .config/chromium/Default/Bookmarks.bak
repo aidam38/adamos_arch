@@ -6,10 +6,10 @@
             "date_added": "13176844231494443",
             "id": "48",
             "meta_info": {
-               "last_visited_desktop": "13179911480611324"
+               "last_visited_desktop": "13184323065800483"
             },
             "name": "YouTube",
-            "sync_transaction_version": "600",
+            "sync_transaction_version": "649",
             "type": "url",
             "url": "https://www.youtube.com/feed/subscriptions"
          }, {
@@ -17,20 +17,20 @@
             "id": "13",
             "meta_info": {
                "last_visited": "13153065902520293",
-               "last_visited_desktop": "13179825626009754"
+               "last_visited_desktop": "13184359449968455"
             },
             "name": "Gmail",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "658",
             "type": "url",
             "url": "https://mail.google.com/mail/u/0/#inbox"
          }, {
             "date_added": "13146854411221010",
             "id": "14",
             "meta_info": {
-               "last_visited_desktop": "13179828051206977"
+               "last_visited_desktop": "13184346120086721"
             },
             "name": "Kalendář",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "652",
             "type": "url",
             "url": "https://calendar.google.com/calendar/render#main_7"
          }, {
@@ -38,31 +38,31 @@
             "id": "15",
             "meta_info": {
                "last_visited": "13146248870458162",
-               "last_visited_desktop": "13179790857192914"
+               "last_visited_desktop": "13184929841457219"
             },
             "name": "Mapy",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "659",
             "type": "url",
             "url": "https://www.google.cz/maps"
          }, {
             "date_added": "13136827998685419",
             "id": "16",
             "meta_info": {
-               "last_visited_desktop": "13179789884383453"
+               "last_visited_desktop": "13183115120408396"
             },
             "name": "Keep",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "622",
             "type": "url",
             "url": "https://keep.google.com/u/0/"
          }, {
             "date_added": "13086638391481537",
             "id": "17",
             "meta_info": {
-               "last_visited": "13156588783383769",
-               "last_visited_desktop": "13179827978690434"
+               "last_visited": "13180019432766276",
+               "last_visited_desktop": "13183415843598090"
             },
             "name": "Facebook",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "627",
             "type": "url",
             "url": "http://facebook.com/"
          }, {
@@ -70,10 +70,10 @@
             "id": "18",
             "meta_info": {
                "last_visited": "13171926104232512",
-               "last_visited_desktop": "13179842307747844"
+               "last_visited_desktop": "13184930751834367"
             },
             "name": "Twitter",
-            "sync_transaction_version": "599",
+            "sync_transaction_version": "659",
             "type": "url",
             "url": "https://twitter.com/"
          }, {
@@ -81,10 +81,10 @@
             "id": "19",
             "meta_info": {
                "last_visited": "13159057260001056",
-               "last_visited_desktop": "13179841143962610"
+               "last_visited_desktop": "13184927864356342"
             },
             "name": "Reddit",
-            "sync_transaction_version": "596",
+            "sync_transaction_version": "659",
             "type": "url",
             "url": "https://www.reddit.com/"
          }, {
@@ -103,10 +103,10 @@
             "id": "21",
             "meta_info": {
                "last_visited": "13151760355101440",
-               "last_visited_desktop": "13179785076840886"
+               "last_visited_desktop": "13185486625320892"
             },
             "name": "Student",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "745",
             "type": "url",
             "url": "https://cmgp.edookit.net/timetable/?do=familyTimetable-resetFilter"
          }, {
@@ -124,10 +124,10 @@
             "id": "23",
             "meta_info": {
                "last_visited": "13171377106625051",
-               "last_visited_desktop": "13178704749703148"
+               "last_visited_desktop": "13182898500941033"
             },
             "name": "CMSPS",
-            "sync_transaction_version": "546",
+            "sync_transaction_version": "617",
             "type": "url",
             "url": "http://cmgp.cz/"
          }, {
@@ -145,10 +145,10 @@
             "date_added": "13174657343265467",
             "id": "25",
             "meta_info": {
-               "last_visited_desktop": "13179841319455209"
+               "last_visited_desktop": "13183392700494865"
             },
             "name": "Drive",
-            "sync_transaction_version": "598",
+            "sync_transaction_version": "625",
             "type": "url",
             "url": "https://drive.google.com/drive/my-drive"
          }, {
@@ -177,10 +177,10 @@
             "date_added": "13095946902935044",
             "id": "28",
             "meta_info": {
-               "last_visited_desktop": "13179914450881672"
+               "last_visited_desktop": "13185397457486639"
             },
             "name": "SERVIS24",
-            "sync_transaction_version": "605",
+            "sync_transaction_version": "744",
             "type": "url",
             "url": "https://www.servis24.cz/ebanking-s24/ib/base/inf/productlist/accounts?execution=e6s1"
          }, {
@@ -188,10 +188,10 @@
             "id": "29",
             "meta_info": {
                "last_visited": "13148848688073392",
-               "last_visited_desktop": "13178705192674894"
+               "last_visited_desktop": "13184346116023850"
             },
             "name": "KA",
-            "sync_transaction_version": "549",
+            "sync_transaction_version": "650",
             "type": "url",
             "url": "https://www.khanacademy.org/"
          }, {
@@ -250,21 +250,21 @@
             "id": "35",
             "meta_info": {
                "last_visited": "13170845935421574",
-               "last_visited_desktop": "13179828105180268"
+               "last_visited_desktop": "13184323163868639"
             },
             "name": "PraSe",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "649",
             "type": "url",
             "url": "https://mks.mff.cuni.cz/commentary/aktualni.php"
          }, {
             "date_added": "13165603595621965",
             "id": "34",
             "meta_info": {
-               "last_visited": "13168884982261070",
-               "last_visited_desktop": "13176076742187244"
+               "last_visited": "13180717928048787",
+               "last_visited_desktop": "13183140644316343"
             },
             "name": "MO",
-            "sync_transaction_version": "503",
+            "sync_transaction_version": "623",
             "type": "url",
             "url": "http://www.matematickaolympiada.cz/cs/olympiada-pro-stredni-skoly/67-rocnik-17-18"
          }, {
@@ -329,21 +329,21 @@
             "date_added": "13167917566862449",
             "id": "42",
             "meta_info": {
-               "last_visited_desktop": "13177340811804865"
+               "last_visited_desktop": "13183115609994031"
             },
             "name": "Překladač",
-            "sync_transaction_version": "503",
+            "sync_transaction_version": "622",
             "type": "url",
             "url": "https://translate.google.cz/?hl=cs"
          }, {
             "date_added": "13170260012144214",
             "id": "43",
             "meta_info": {
-               "last_visited": "13179160967341768",
-               "last_visited_desktop": "13179779341892226"
+               "last_visited": "13180450103181620",
+               "last_visited_desktop": "13184927961191091"
             },
             "name": "iKS",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "659",
             "type": "url",
             "url": "http://iksko.org/ranklist.php"
          }, {
@@ -360,10 +360,10 @@
             "date_added": "13173730254850508",
             "id": "45",
             "meta_info": {
-               "last_visited_desktop": "13179911590612933"
+               "last_visited_desktop": "13185138749216001"
             },
             "name": "Messenger",
-            "sync_transaction_version": "604",
+            "sync_transaction_version": "743",
             "type": "url",
             "url": "https://www.messenger.com/"
          }, {
@@ -378,7 +378,7 @@
             "url": "https://www.gnu.org/philosophy/free-sw.html"
          } ],
          "date_added": "13176328710383399",
-         "date_modified": "13179911456348123",
+         "date_modified": "13185138743871427",
          "id": "1",
          "name": "Bookmarks bar",
          "type": "folder"
@@ -391,7 +391,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "608",
+      "sync_transaction_version": "745",
       "synced": {
          "children": [ {
             "date_added": "13130505276338872",
@@ -453,10 +453,10 @@
             "id": "10",
             "meta_info": {
                "last_visited": "13166295589067354",
-               "last_visited_desktop": "13179944858985449"
+               "last_visited_desktop": "13185485542288735"
             },
             "name": "CS:GO News & Coverage | HLTV.org",
-            "sync_transaction_version": "594",
+            "sync_transaction_version": "610",
             "type": "url",
             "url": "https://www.hltv.org/"
          }, {
@@ -464,10 +464,10 @@
             "id": "11",
             "meta_info": {
                "last_visited": "13172590034078213",
-               "last_visited_desktop": "13173293897399931"
+               "last_visited_desktop": "13185138861327345"
             },
             "name": "no input neural networks - Hledat Googlem",
-            "sync_transaction_version": "503",
+            "sync_transaction_version": "667",
             "type": "url",
             "url": "https://www.google.cz/search?q=no+input+neural+networks&oq=no+input+neural+networks&aqs=chrome..69i57j33.14050j0j9&sourceid=chrome-mobile&ie=UTF-8"
          }, {
@@ -483,7 +483,7 @@
             "url": "http://youtube.com/feed/subscriptions"
          } ],
          "date_added": "13176328710383414",
-         "date_modified": "13179840882604788",
+         "date_modified": "13182020178562820",
          "id": "3",
          "name": "Mobile bookmarks",
          "type": "folder"

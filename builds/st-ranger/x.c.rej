@@ -1,0 +1,42 @@
+--- x.c
++++ x.c
+@@ -14,6 +14,7 @@
+ #include <X11/keysym.h>
+ #include <X11/Xft/Xft.h>
+ #include <X11/XKBlib.h>
++#include <X11/Xresource.h>
+ 
+ static char *argv0;
+ #include "arg.h"
+@@ -791,8 +805,8 @@ xclear(int x1, int y1, int x2, int y2)
+ void
+ xhints(void)
+ {
+-	XClassHint class = {opt_name ? opt_name : termname,
+-	                    opt_class ? opt_class : termname};
++	XClassHint class = {opt_name ? opt_name : "st",
++	                    opt_class ? opt_class : "St"};
+ 	XWMHints wm = {.flags = InputHint, .input = 1};
+ 	XSizeHints *sizeh;
+ 
+@@ -1012,8 +1026,6 @@ xinit(int cols, int rows)
+ 	pid_t thispid = getpid();
+ 	XColor xmousefg, xmousebg;
+ 
+-	if (!(xw.dpy = XOpenDisplay(NULL)))
+-		die("Can't open display\n");
+ 	xw.scr = XDefaultScreen(xw.dpy);
+ 	xw.vis = XDefaultVisual(xw.dpy, xw.scr);
+ 
+@@ -2003,6 +2068,11 @@ run:
+ 	}
+ 	setlocale(LC_CTYPE, "");
+ 	XSetLocaleModifiers("");
++
++	if(!(xw.dpy = XOpenDisplay(NULL)))
++		die("Can't open display\n");
++
++	config_init();
+ 	cols = MAX(cols, 1);
+ 	rows = MAX(rows, 1);
+ 	tnew(cols, rows);

@@ -19,7 +19,7 @@ c.auto_save.interval = 15000
 
 #Always restore open sites when qutebrowser is reopened.
 #Type: Bool
-c.auto_save.session = False
+c.auto_save.session = True 
 
 #Backend to use to display websites. qutebrowser supports two different
 #web rendering engines / backends, QtWebKit and QtWebEngine. QtWebKit
@@ -150,11 +150,11 @@ c.colors.downloads.system.fg = 'rgb'
 #Background color for hints. Note that you can use a `rgba(...)` value
 #for transparency.
 #Type: QssColor
-c.colors.hints.bg = 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 247, 133, 0.8), stop:1 rgba(255, 197, 66, 0.8))'
+c.colors.hints.bg = '#F9B200'
 
 #Font color for hints.
 #Type: QssColor
-c.colors.hints.fg = 'black'
+c.colors.hints.fg = '#294885'
 
 #Font color for the matched part of hints.
 #Type: QssColor
@@ -258,15 +258,15 @@ c.colors.statusbar.command.private.fg = 'white'
 
 #Background color of the statusbar in insert mode.
 #Type: QssColor
-c.colors.statusbar.insert.bg = 'darkgreen'
+c.colors.statusbar.insert.bg = '#89BA17'
 
 #Foreground color of the statusbar in insert mode.
 #Type: QssColor
-c.colors.statusbar.insert.fg = 'white'
+c.colors.statusbar.insert.fg = 'black'
 
 #Background color of the statusbar.
 #Type: QssColor
-c.colors.statusbar.normal.bg = 'black'
+c.colors.statusbar.normal.bg = '#130f40'
 
 #Foreground color of the statusbar.
 #Type: QssColor
@@ -435,7 +435,7 @@ c.completion.use_best_match = False
 #Number of URLs to show in the web history. 0: no history / -1:
 #unlimited
 #Type: Int
-c.completion.web_history_max_items = -1
+c.completion.web_history.max_items = -1
 
 #Require a confirmation before quitting the application.
 #Type: ConfirmQuit
@@ -485,7 +485,7 @@ c.content.canvas_reading = True
 #  - no-3rdparty: Accept cookies from the same origin only.
 #  - no-unknown-3rdparty: Accept cookies from the same origin only, unless a cookie is already set for the domain. On QtWebEngine, this is the same as no-3rdparty.
 #  - never: Don't accept cookies at all.
-c.content.cookies.accept = 'no-3rdparty'
+c.content.cookies.accept = 'all'
 
 #Store cookies. Note this option needs a restart with QtWebEngine on Qt
 #< 5.9.
@@ -717,7 +717,7 @@ c.content.webgl = True
 #requires a restart. On Qt 5.10, this option doesn't work at all
 #because of a Qt bug. On Qt >= 5.11, no restart is required.
 #Type: Bool
-c.content.webrtc_public_interfaces_only = False
+#c.content.webrtc_public_interfaces_only = False
 
 #Limit fullscreen to the browser window (does not expand to fill the
 #screen).
@@ -777,7 +777,7 @@ c.downloads.remove_finished = -1
 #`{line0}`: Same as `{line}`, but starting from index 0. * `{column0}`:
 #Same as `{column}`, but starting from index 0.
 #Type: ShellCommand
-c.editor.command = ['gvim', '-f', '{file}', '-c', 'normal {line}G{column0}l']
+c.editor.command = ['nvim', '-f', '{file}', '-c', 'normal {line}G{column0}l']
 
 #Encoding to use for the editor.
 #Type: Encoding
@@ -1087,7 +1087,7 @@ c.qt.highdpi = False
 
 #Show a scrollbar.
 #Type: Bool
-c.scrolling.bar = False
+#c.scrolling.bar = False
 
 #Enable smooth scrolling for web pages. Note smooth scrolling does not
 #work with the `:scroll-px` command.
@@ -1464,37 +1464,46 @@ config.bind('gi', 'hint inputs --first')
 config.bind('gI', 'hint inputs')
 config.bind('/', 'set-cmd-text /')
 config.bind('ů', 'set-cmd-text :')
-config.bind('I', 'enter-mode passthrough')
+config.bind('<Ctrl-E>', 'enter-mode passthrough')
 config.bind('i', 'enter-mode insert')
 config.bind('m', 'quickmark-save')
 config.bind('n', 'search-next')
 config.bind('N', 'search-prev')
 config.bind('o', 'set-cmd-text -s :open')
 config.bind('O', 'set-cmd-text -s :open -t')
+config.bind('b', 'set-cmd-text -s :quickmark-load')
+config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 config.bind('x', 'tab-close')
 config.bind('r', 'reload')
+config.bind('R', 'reload -f')
 config.bind('u', 'undo')
 config.bind('yy', 'yank')
 config.bind('.', 'tab-move +')
 config.bind(',', 'tab-move -')
-config.bind('a', 'download-open mupdf') 
+config.bind('+', 'zoom-in')
+config.bind('-', 'zoom-out')
+config.bind('"y', 'hint links yank')
+config.bind('<Escape>', 'download-clear ;; clear-keychain ;; search ;; fullscreen --leave')
+config.bind('Do', 'download-open rifle') 
+config.bind('Dd', 'set-cmd-text -s :download') 
+config.bind('Ds', 'download-cancel')
+config.bind('Dc', 'download-clear')
+config.bind('t', 'open -t')
+config.bind('<Alt-W>', 'quit --save')
 
 
 config.bind("'", 'enter-mode jump_mark')
-config.bind('+', 'zoom-in')
-config.bind('-', 'zoom-out')
-config.bind(';I', 'hint images tab')
-config.bind(';O', 'hint links fill :open -t -r {hint-url}')
-config.bind(';R', 'hint --rapid links window')
-config.bind(';Y', 'hint links yank-primary')
-config.bind(';b', 'hint all tab-bg')
-config.bind(';d', 'hint links download')
-config.bind(';f', 'hint all tab-fg')
-config.bind(';h', 'hint all hover')
-config.bind(';i', 'hint images')
-config.bind(';o', 'hint links fill :open {hint-url}')
-config.bind(';r', 'hint --rapid links tab-bg')
-config.bind(';y', 'hint links yank')
+config.bind('"I', 'hint images tab')
+config.bind('"O', 'hint links fill :open -t -r {hint-url}')
+config.bind('"R', 'hint --rapid links window')
+config.bind('"Y', 'hint links yank-primary')
+config.bind('"b', 'hint all tab-bg')
+config.bind('"d', 'hint links download')
+config.bind('"f', 'hint all tab-fg')
+config.bind('"h', 'hint all hover')
+config.bind('"i', 'hint images')
+config.bind('"o', 'hint links fill :open {hint-url}')
+config.bind('"r', 'hint --rapid links tab-bg')
 config.bind('<Mod4-m>', 'tab-mute')
 config.bind('<Ctrl-A>', 'navigate increment')
 config.bind('<Ctrl-Alt-p>', 'print')
@@ -1517,7 +1526,6 @@ config.bind('<Ctrl-^>', 'tab-focus last')
 config.bind('<Ctrl-h>', 'home')
 config.bind('<Ctrl-p>', 'tab-pin')
 config.bind('<Ctrl-s>', 'stop')
-config.bind('<Escape>', 'clear-keychain ;; search ;; fullscreen --leave')
 config.bind('<F11>', 'fullscreen')
 config.bind('<F5>', 'reload')
 config.bind('<Return>', 'follow-selected')
@@ -1526,12 +1534,10 @@ config.bind('<forward>', 'forward')
 config.bind('=', 'zoom')
 config.bind('?', 'set-cmd-text ?')
 config.bind('@', 'run-macro')
-config.bind('B', 'set-cmd-text -s :quickmark-load -t')
 config.bind('X', 'tab-close -o')
 config.bind('M', 'bookmark-add')
 config.bind('PP', 'open -t -- {primary}')
 config.bind('Pp', 'open -t -- {clipboard}')
-config.bind('R', 'reload -f')
 config.bind('Sb', 'open qute://bookmarks#bookmarks')
 config.bind('Sh', 'open qute://history')
 config.bind('Sq', 'open qute://bookmarks')
@@ -1542,9 +1548,6 @@ config.bind('ZZ', 'quit --save')
 config.bind('[[', 'navigate prev')
 config.bind(']]', 'navigate next')
 config.bind('`', 'enter-mode set_mark')
-config.bind('ad', 'download-cancel')
-config.bind('b', 'set-cmd-text -s :quickmark-load')
-config.bind('cd', 'download-clear')
 config.bind('co', 'tab-only')
 config.bind('g$', 'tab-focus -1')
 config.bind('g0', 'tab-focus 1')
@@ -1554,7 +1557,6 @@ config.bind('gO', 'set-cmd-text :open -t -r {url:pretty}')
 config.bind('gU', 'navigate up -t')
 config.bind('g^', 'tab-focus 1')
 config.bind('ga', 'open -t')
-config.bind('t', 'open -t')
 config.bind('gb', 'set-cmd-text -s :bookmark-load')
 config.bind('gd', 'download')
 config.bind('gf', 'view-source')
@@ -1674,12 +1676,12 @@ config.bind('<Escape>', 'leave-mode', mode='hint')
 config.bind('<Return>', 'follow-hint', mode='hint')
 
 #Bindings for insert mode
-config.bind('<Ctrl-E>', 'open-editor', mode='insert')
+config.bind('<Ctrl-E>', 'open-editor nvim', mode='insert')
 config.bind('<Escape>', 'leave-mode', mode='insert')
 config.bind('<Shift-Ins>', 'insert-text {primary}', mode='insert')
 
 #Bindings for passthrough mode
-config.bind('<Escape>', 'leave-mode', mode='passthrough')
+config.bind('<Ctrl-E>', 'leave-mode', mode='passthrough')
 
 #Bindings for prompt mode
 config.bind('<Alt-B>', 'rl-backward-word', mode='prompt')

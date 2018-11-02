@@ -42,8 +42,8 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 60;
-static unsigned int actionfps = 60;
+static unsigned int xfps = 300;
+static unsigned int actionfps = 300;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
@@ -83,7 +83,7 @@ char *termname = "st";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xee;
+unsigned int alpha = 0xcc;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -209,9 +209,9 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ MODKEY,               XK_s,           zoom,           {.f = +1} },
-	{ MODKEY,               XK_a,           zoom,           {.f = -1} },
-	{ MODKEY,               XK_y,           zoomreset,      {.f =  0} },
+	{ MODKEY,               XK_i,           zoom,           {.f = +1} },
+	{ MODKEY,               XK_o,           zoom,           {.f = -1} },
+	{ MODKEY,               XK_p,           zoomreset,      {.f =  0} },
 	{ ControlMask,          XK_c,           clipcopy,       {.i =  0} },
 	{ ControlMask,          XK_v,           selpaste,       {.i =  0} },
 	{ MODKEY,               XK_y,           clippaste,      {.i =  0} },

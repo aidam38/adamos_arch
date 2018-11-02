@@ -1,0 +1,2 @@
+var content=webpackJsonp_name_([4],{Uy9U:function(e,n,o){console.log(0),document.addEventListener("submit",function(){console.log(chrome),chrome.runtime.sendMessage({})}),console.log(1)}},["Uy9U"]);
+//# sourceMappingURL=content.js.map

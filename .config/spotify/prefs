@@ -1,8 +1,8 @@
 autologin.canonical_username="11161625239"
-autologin.blob="UKaDDWbMisVExXXJhQK7ZuBfJKWEo6MjrsZhr9L7xCqaMJ4mc+U7L9AOnyplZe6qct3TIb5as4oVAgmoifvmv+I1wL89/PMHNQx8dIgpF+ef4jO9vsTR9J0aapqvb5y+GH311/Mt0yAn5ZGaZZfPND2LLAduizYQVY42+x9ujFr8wVz8ODwTwRHIii/m788s"
+autologin.blob="UKaDDWbMisVExXXJhQK7Ztad/uVB0e9cUHXSM0aqaBxqMYRQFSiXTTDegW7hO2r7f/wBEPR4SY3eoTu+ZA2jjnMo8MmjUwCsK4ES48SokOo2W4FIwLrIb3nR4ygJvpdnIuRtRYJ7QqsMpVlqOTpbzJuLWWdPf/a4EpqN4r1sdodDTjuHqI5n5Saf1BiI3UW0"
 autologin.username="krivka.adam@gmail.com"
-autologin.saved_credentials="{\"11161625239\":[\"krivka.adam@gmail.com\",\"UKaDDWbMisVExXXJhQK7ZuBfJKWEo6MjrsZhr9L7xCqaMJ4mc+U7L9AOnyplZe6qct3TIb5as4oVAgmoifvmv+I1wL89/PMHNQx8dIgpF+ef4jO9vsTR9J0aapqvb5y+GH311/Mt0yAn5ZGaZZfPND2LLAduizYQVY42+x9ujFr8wVz8ODwTwRHIii/m788s\"]}"
-core.clock_delta=28
+autologin.saved_credentials="{\"11161625239\":[\"krivka.adam@gmail.com\",\"UKaDDWbMisVExXXJhQK7Ztad/uVB0e9cUHXSM0aqaBxqMYRQFSiXTTDegW7hO2r7f/wBEPR4SY3eoTu+ZA2jjnMo8MmjUwCsK4ES48SokOo2W4FIwLrIb3nR4ygJvpdnIuRtRYJ7QqsMpVlqOTpbzJuLWWdPf/a4EpqN4r1sdodDTjuHqI5n5Saf1BiI3UW0\"]}"
+core.clock_delta=125
 storage.last-location="/home/adam/.cache/spotify/Storage"
 app.window.position.height=1059
 app.autostart-configured=true

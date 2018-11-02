@@ -1,9 +1,11 @@
 # GIMP gimp-eraser-tool options
 
+(background (color-rgb 1.000000 0.971429 0.000000))
 (brush "2. Hardness 050")
 (dynamics "Dynamics Off")
 (palette "Color History")
-(brush-size 51.000000)
+(brush-size 67.640000)
 (brush-hardness 0.500000)
+(brush-force 0.153000)
 
 # end of gimp-eraser-tool options
