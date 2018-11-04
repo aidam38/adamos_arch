@@ -15,6 +15,6 @@ fi
 echo "Commit message: "
 read msg
 
-git add .config/ .scripts/ .wallpapers /builds/ .bash_profile .bashrc .fehbg .Xresources README.md .gitconfig .gitmodules
+git add .config/ .scripts/ .wallpapers builds/ .bash_profile .bashrc .fehbg .Xresources README.md .gitconfig .gitmodules
 git commit -m "$msg" 
 git push origin master

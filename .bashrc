@@ -25,6 +25,7 @@ alias y='yaourt'
 alias au='pulsemixer'
 alias bl='bluetoothctl'
 alias mke='sudo make clean install'
+alias !!='sudo !!'
 alias tr='transmission-remote -w /home/adam/torrents -a'
 alias trl='transmission-remote -l'
 
