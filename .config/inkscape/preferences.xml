@@ -340,8 +340,8 @@
        align_mode="2"
        outer_style="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -359,8 +359,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="225.893"
-       y="766.964"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -427,12 +427,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="mm"
-       id="measure"
-       fontsize="10"
-       precision="2"
+       offset="5"
        scale="100"
-       offset="5" />
+       precision="2"
+       fontsize="10"
+       id="measure"
+       unit="mm" />
   </group>
   <group
      id="palette">
@@ -576,11 +576,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="1"
+       page="0"
        x="0"
        y="0"
        w="355"
-       h="439"
+       h="473"
        visible="1"
        state="2"
        placement="5" />
@@ -600,7 +600,7 @@
        x="0"
        y="0"
        w="355"
-       h="193"
+       h="198"
        visible="1"
        state="2"
        placement="1" />
@@ -615,7 +615,7 @@
        x="0"
        y="0"
        w="355"
-       h="439"
+       h="473"
        visible="1"
        state="2"
        placement="5"
@@ -674,7 +674,7 @@
        x="0"
        y="0"
        w="355"
-       h="439"
+       h="473"
        visible="1"
        state="2"
        placement="5">
@@ -1044,10 +1044,10 @@
      id="desktop"
      style="-inkscape-font-specification:SKAUT;font-family:SKAUT;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:26.66666667px;text-anchor:end;text-align:end;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0.23478261;line-height:100%">
     <group
-       width="1920"
-       height="1059"
+       width="675"
+       height="738"
        x="0"
-       y="21"
+       y="22"
        fullscreen="0"
        id="geometry"
        maximized="0" />
