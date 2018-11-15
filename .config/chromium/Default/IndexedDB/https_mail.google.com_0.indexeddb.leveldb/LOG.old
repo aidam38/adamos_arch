@@ -1,3 +1,8 @@
-2018/11/01-20:55:31.193 3581 Reusing MANIFEST /home/adam/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/11/01-20:55:31.193 3581 Recovering log #12
-2018/11/01-20:55:31.219 3581 Reusing old log /home/adam/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000012.log 
+2018/11/12-20:47:39.216 28595 Reusing MANIFEST /home/adam/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/11/12-20:47:39.216 28595 Recovering log #12
+2018/11/12-20:47:39.239 28595 Level-0 table #16: started
+2018/11/12-20:47:39.266 28595 Level-0 table #16: 951169 bytes OK
+2018/11/12-20:47:39.267 28595 Recovering log #16
+2018/11/12-20:47:39.269 28595 Reusing old log /home/adam/.config/chromium/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000016.log 
+2018/11/12-20:47:39.280 28595 Delete type=0 #12
+2018/11/12-20:47:39.280 28595 Delete type=2 #17
