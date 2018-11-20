@@ -74,10 +74,27 @@ map ú search
 map <enter> open
 map o &mimeopen --ask $f
 map O $mimeopen --ask-default $f
-map D delete
+map D trash
 map J half-down
 map K half-up
+map c
+map C clear
 
 # execute current file (must be executable)
 map x $$f
 map X !$f
+
+# directories aliases
+map gr cd /
+map ge cd /etc
+map gM cd /mnt
+map gu cd /mnt/usb1
+map gh cd ~
+map gd cd ~/downloads
+map gD cd ~/drive
+map gs cd ~/drive/School
+map gS cd ~/drive/School/soc
+map gm cd ~/drive/School/Matika
+map gk cd ~/drive/School/Matika/Krouzek/2018-2019/
+map gst cd ~/builds/st-git
+map cst :cd ~/builds/st-git; $$EDITOR config.h

@@ -66,6 +66,7 @@ map <C-w> <Nop>
 " Filetype specific maps
 
 " TeX
+autocmd VimLeave *.tex !texclear %
 autocmd filetype tex nnoremap <leader>l :w<CR>:!latexmk --pdf<CR>
 autocmd filetype tex nnoremap <leader>c :w<CR>:!pdflatex %<CR>
 autocmd filetype tex inoremap <C-e> }<ESC>yBi\end{<ESC>O\begin{<ESC>pa}

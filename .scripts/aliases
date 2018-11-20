@@ -1,0 +1,12 @@
+r /
+e /etc
+M /mnt
+u /mnt/usb1
+h ~
+d ~/downloads
+D ~/drive
+s ~/drive/School
+S ~/drive/School/soc
+m ~/drive/School/Matika
+k ~/drive/School/Matika/Krouzek/2018-2019/
+st ~/builds/st-git config.h
