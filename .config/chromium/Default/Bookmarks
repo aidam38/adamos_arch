@@ -59,10 +59,10 @@
             "id": "17",
             "meta_info": {
                "last_visited": "13180019432766276",
-               "last_visited_desktop": "13185536400832147"
+               "last_visited_desktop": "13186941210085050"
             },
             "name": "Facebook",
-            "sync_transaction_version": "746",
+            "sync_transaction_version": "753",
             "type": "url",
             "url": "http://facebook.com/"
          }, {
@@ -212,7 +212,7 @@
                "last_visited_desktop": "13186525672148135"
             },
             "name": "GeoGeb",
-            "sync_transaction_version": "608",
+            "sync_transaction_version": "756",
             "type": "url",
             "url": "https://www.geogebra.org/?lang=cs"
          }, {
@@ -360,10 +360,10 @@
             "date_added": "13173730254850508",
             "id": "45",
             "meta_info": {
-               "last_visited_desktop": "13185535852430146"
+               "last_visited_desktop": "13186941205834230"
             },
             "name": "Messenger",
-            "sync_transaction_version": "746",
+            "sync_transaction_version": "751",
             "type": "url",
             "url": "https://www.messenger.com/"
          }, {
@@ -391,7 +391,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "747",
+      "sync_transaction_version": "756",
       "synced": {
          "children": [ {
             "date_added": "13130505276338872",
@@ -453,10 +453,10 @@
             "id": "10",
             "meta_info": {
                "last_visited": "13166295589067354",
-               "last_visited_desktop": "13186594118894581"
+               "last_visited_desktop": "13187113508603492"
             },
             "name": "CS:GO News & Coverage | HLTV.org",
-            "sync_transaction_version": "610",
+            "sync_transaction_version": "755",
             "type": "url",
             "url": "https://www.hltv.org/"
          }, {

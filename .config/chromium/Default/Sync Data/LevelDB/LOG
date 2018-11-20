@@ -1,3 +1,3 @@
-2018/11/13-15:48:38.652 31049 Reusing MANIFEST /home/adam/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2018/11/13-15:48:38.654 31049 Recovering log #7
-2018/11/13-15:48:38.666 31049 Reusing old log /home/adam/.config/chromium/Default/Sync Data/LevelDB/000007.log 
+2018/11/19-16:31:42.710 22593 Reusing MANIFEST /home/adam/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2018/11/19-16:31:42.711 22593 Recovering log #7
+2018/11/19-16:31:42.715 22593 Reusing old log /home/adam/.config/chromium/Default/Sync Data/LevelDB/000007.log 

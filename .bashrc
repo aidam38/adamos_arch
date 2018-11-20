@@ -9,6 +9,8 @@ export PATH="/home/adam/.config/nvim/bundle/vim-live-latex-preview/bin:/usr/lib/
 
 export PS1=" \[\033[38;5;202m\]\u\[$(tput sgr0)\]\[\033[38;5;14m\]@\[$(tput sgr0)\]\[\033[38;5;12m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;160m\]\[$(tput bold)\]\W\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;14m\]\\$ \[$(tput sgr0)\]"
 
+eval $(dircolors -b $HOME/.dircolors)
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -20,7 +22,7 @@ alias sv='sudo nvim'
 alias r='ranger'
 alias sr='sudo ranger'
 alias p='pacman'
-alias sp='sudo pacman'
+alias sudop='sudo pacman'
 alias y='yaourt'
 alias au='pulsemixer'
 alias bl='bluetoothctl'
@@ -28,6 +30,7 @@ alias mke='sudo make clean install'
 alias !!='sudo !!'
 alias tr='transmission-remote -w /home/adam/torrents -a'
 alias trl='transmission-remote -l'
+alias sc='scanimage >'
 
 alias gdwm='cd ~/builds/dwm'
 alias cdwm='cd ~/builds/dwm && nvim /home/adam/builds/dwm/config.h'

@@ -137,6 +137,8 @@ settings:
         <Ctrl+e>: enter-mode passthrough
         <Ctrl+f>: scroll-page 0 1
         <Ctrl+h>: home
+        <Ctrl+j>: back
+        <Ctrl+k>: forward
         <Ctrl+n>: open -w
         <Ctrl+p>: tab-pin
         <Ctrl+q>: quit
@@ -177,8 +179,8 @@ settings:
         F: hint all tab
         G: scroll-to-perc
         H: tab-prev
-        J: back
-        K: forward
+        J: scroll-page 0 0.5
+        K: scroll-page 0 -0.5
         L: tab-next
         M: bookmark-add
         N: search-prev
@@ -200,7 +202,9 @@ settings:
         b: set-cmd-text -s :quickmark-load
         cd: download-clear
         co: tab-only
-        d: scroll-page 0 0.5
+        dc: download-cancel
+        dd: set-cmd-text -s :download
+        do: download-open rifle
         f: hint
         g$: tab-focus -1
         g0: tab-focus 1
@@ -234,7 +238,6 @@ settings:
         pp: open -- {clipboard}
         q: record-macro
         r: reload
-        s: scroll-page 0 -0.5
         sf: save
         sk: set-cmd-text -s :bind
         sl: set-cmd-text -s :set -t
@@ -281,6 +284,7 @@ settings:
         yy: yank
         '{{': navigate prev -t
         '}}': navigate next -t
+        ú: set-cmd-text /
       passthrough:
         <Ctrl+e>: leave-mode
         <Shift+Escape>: null
