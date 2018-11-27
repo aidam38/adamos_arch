@@ -134,7 +134,6 @@ settings:
         <Ctrl+a>: navigate increment
         <Ctrl+b>: scroll-page 0 -1
         <Ctrl+d>: scroll-page 0 0.5
-        <Ctrl+e>: enter-mode passthrough
         <Ctrl+f>: scroll-page 0 1
         <Ctrl+h>: home
         <Ctrl+j>: back
@@ -179,6 +178,7 @@ settings:
         F: hint all tab
         G: scroll-to-perc
         H: tab-prev
+        I: enter-mode passthrough
         J: scroll-page 0 0.5
         K: scroll-page 0 -0.5
         L: tab-next
@@ -202,6 +202,7 @@ settings:
         b: set-cmd-text -s :quickmark-load
         cd: download-clear
         co: tab-only
+        d: scroll-page 0 0.5
         dc: download-cancel
         dd: set-cmd-text -s :download
         do: download-open rifle
@@ -238,6 +239,7 @@ settings:
         pp: open -- {clipboard}
         q: record-macro
         r: reload
+        s: scroll-page 0 -0.5
         sf: save
         sk: set-cmd-text -s :bind
         sl: set-cmd-text -s :set -t
@@ -286,7 +288,7 @@ settings:
         '}}': navigate next -t
         ú: set-cmd-text /
       passthrough:
-        <Ctrl+e>: leave-mode
+        <Ctrl+i>: leave-mode
         <Shift+Escape>: null
       prompt:
         <Alt+Backspace>: rl-backward-kill-word

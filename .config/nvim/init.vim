@@ -13,10 +13,10 @@ syntax on
 filetype plugin on
 
 " Colorscheme settings
-let g:solarized_termtrans = 1
-let g:solarized_termcolors = 256
-set background=dark
-colorscheme solarized
+"let g:solarized_termtrans = 1
+"let g:solarized_termcolors = 256
+"set background=dark
+"colorscheme solarized
 
 " Remember folds
 augroup remember_folds
@@ -34,14 +34,11 @@ nnoremap ú /
 
 " Copy and paste maps
 noremap <C-r> :reg<CR>
-"noremap  y "+y
-"noremap  Y "+Y
-"noremap  p "+p
-"noremap  P "+P
-"vnoremap y "+y
-"vnoremap Y "+Y
-"vnoremap p "+p
-"vnoremap P "+P
+nnoremap  Y "+y
+nnoremap  P "+p
+vnoremap Y "+Y
+vnoremap P "+P
+noremap x "_x
 
 map <C-a> <esc>ggVG<CR>
 

@@ -822,7 +822,7 @@ c.fonts.messages.warning = '10pt monospace'
 #Default monospace fonts. Whenever "monospace" is used in a font
 #setting, it's replaced with the fonts listed here.
 #Type: Font
-c.fonts.monospace = 'Inconsolata, "xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal'
+c.fonts.monospace = 'Hack, Inconsolata, "xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal'
 
 #Font used for prompts.
 #Type: Font
@@ -1466,8 +1466,8 @@ config.bind('gi', 'hint inputs --first')
 config.bind('gI', 'hint inputs')
 config.bind('ú', 'set-cmd-text /')
 config.bind('ů', 'set-cmd-text :')
-config.bind('<Ctrl-E>', 'enter-mode passthrough')
 config.bind('i', 'enter-mode insert')
+config.bind('<Ctrl-i>', 'enter-mode passthrough')
 config.bind('m', 'quickmark-save')
 config.bind('n', 'search-next')
 config.bind('N', 'search-prev')
@@ -1682,7 +1682,7 @@ config.bind('<Escape>', 'leave-mode', mode='insert')
 config.bind('<Shift-Ins>', 'insert-text {primary}', mode='insert')
 
 #Bindings for passthrough mode
-config.bind('<Ctrl-E>', 'leave-mode', mode='passthrough')
+config.bind('<Ctrl-I>', 'leave-mode', mode='passthrough')
 
 #Bindings for prompt mode
 config.bind('<Alt-B>', 'rl-backward-word', mode='prompt')

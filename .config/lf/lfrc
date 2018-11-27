@@ -3,7 +3,7 @@ set shell sh
 set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
- set drawbox on
+set drawbox on
 
 # make sure trash folder exists
 %mkdir -p ~/.trash
@@ -12,7 +12,7 @@ set scrolloff 10
 #
 # define a custom 'open' command
 cmd open ${{
-    case $(file --mime-type $f -b) in
+    case $(file --mime-type $f -L -b) in
         text/*) $EDITOR $fx;;
         *) for f in $fx; do $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
@@ -24,7 +24,7 @@ map r push :rename<space>
 
 # move current file or selected files to trash folder
 # (also see 'man mv' for backup/overwrite options)
-cmd trash %set -f; mv $fx ~/.trash
+cmd trash %set -f; mv -f $fx ~/.trash
 
 # delete current file or selected files (prompting)
 cmd delete ${{
@@ -72,9 +72,13 @@ cmd zip ${{
 map ů read
 map ú search
 map <enter> open
+map w
+map m push :$mkdir<space>
+map e $$SHELL
 map o &mimeopen --ask $f
 map O $mimeopen --ask-default $f
 map D trash
+map <c-d> delete
 map J half-down
 map K half-up
 map c
@@ -91,10 +95,20 @@ map gM cd /mnt
 map gu cd /mnt/usb1
 map gh cd ~
 map gd cd ~/downloads
+map gB cd ~/builds
+map gc cd ~/.scripts
 map gD cd ~/drive
 map gs cd ~/drive/School
-map gS cd ~/drive/School/soc
+map gS cd ~/drive/School/SOČ
 map gm cd ~/drive/School/Matika
 map gk cd ~/drive/School/Matika/Krouzek/2018-2019/
-map gst cd ~/builds/st-git
-map cst :cd ~/builds/st-git; $$EDITOR config.h
+map gst cd ~/builds/st
+map cst :cd ~/builds/st; $$EDITOR config.h
+map gdwm cd ~/builds/dwm
+map cdwm :cd ~/builds/dwm; $$EDITOR config.h
+map gq cd ~/.config/qutebrowser
+map cq :cd ~/.config/qutebrowser; $$EDITOR config.py
+map gb cd ~
+map cb :cd ~; $$EDITOR .bashrc
+map glf cd ~/.config/lf
+map clf :cd ~/.config/lf; $$EDITOR lfrc
